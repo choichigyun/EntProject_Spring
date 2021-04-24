@@ -22,7 +22,12 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="com.hanul.ent" />
+	<context:component-scan base-package="com.hanul.ent.command" />
+	<context:component-scan base-package="com.hanul.user.controller" />
+	<context:component-scan base-package="com.hanul.ent.controller" />
 	
-	
+		<beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"> 
+		<beans:property name="maxUploadSize" value="10000000" /> 
+	</beans:bean>
 	
 </beans:beans>
