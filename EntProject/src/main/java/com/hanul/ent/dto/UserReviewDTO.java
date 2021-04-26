@@ -1,4 +1,4 @@
-package com.hanul.user.dto;
+package com.hanul.ent.dto;
 
 public class UserReviewDTO {
 	private String users_nick, user_review, user_reviewTitle, ent_id;

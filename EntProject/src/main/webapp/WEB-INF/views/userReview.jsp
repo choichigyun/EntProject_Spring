@@ -1,4 +1,4 @@
-<%@page import="com.hanul.user.dto.UserReviewDTO"%>
+<%@page import="com.hanul.ent.dto.UserReviewDTO"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="com.google.gson.Gson"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"

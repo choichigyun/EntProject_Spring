@@ -1,4 +1,4 @@
-package com.hanul.user.command;
+package com.hanul.ent.command;
 
 import org.springframework.ui.Model;
 

@@ -1,4 +1,4 @@
-package com.hanul.user.dao;
+package com.hanul.ent.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
-import com.hanul.user.dto.UserReviewDTO;
+import com.hanul.ent.dto.UserReviewDTO;
 
 public class UserDAO {
 	private Connection conn;		//¿¬°á°´Ã¼

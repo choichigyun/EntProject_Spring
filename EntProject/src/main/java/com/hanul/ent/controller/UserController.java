@@ -1,4 +1,4 @@
-package com.hanul.user.controller;
+package com.hanul.ent.controller;
 
 import java.io.File;
 import java.util.UUID;
@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartRequest;
 
-import com.hanul.user.command.UserCommand;
-import com.hanul.user.command.UserReviewInsert;
-import com.hanul.user.command.UserReviewSelect;
-import com.hanul.user.dto.UserReviewDTO;
+import com.hanul.ent.command.UserCommand;
+import com.hanul.ent.command.UserReviewInsert;
+import com.hanul.ent.command.UserReviewSelect;
+import com.hanul.ent.dto.UserReviewDTO;
 
 @Controller
 public class UserController {

@@ -1,11 +1,11 @@
-package com.hanul.user.command;
+package com.hanul.ent.command;
 
 import java.util.ArrayList;
 
 import org.springframework.ui.Model;
 
-import com.hanul.user.dao.UserDAO;
-import com.hanul.user.dto.UserReviewDTO;
+import com.hanul.ent.dao.UserDAO;
+import com.hanul.ent.dto.UserReviewDTO;
 
 public class UserReviewSelect implements UserCommand {
 	@Override
